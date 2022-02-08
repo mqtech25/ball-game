@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#screen {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+}
+#ball {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 0, 0, 0.603);
+  border-radius: 50%;
+  position: absolute;
+  left: 10%;
+  top: 90%;
+}
+#bar {
+  height: 20px;
+  width: 150px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: calc(90% + 40px);
+}
+#tiles {
+  width: 150px;
+  height: 30px;
+  position: relative;
+  background-color: rgba(0, 128, 0, 0.801);
+}
+button#playBtn {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 900;
+  background-color: #fff;
+}
